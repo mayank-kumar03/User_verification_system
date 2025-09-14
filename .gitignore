@@ -1,0 +1,55 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ----------------------------
+# Deep Learning / ML files
+# ----------------------------
+# Model checkpoints
+*.h5
+*.hdf5
+*.pb
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+models/
+runs/
+logs/
+
+# Large data files (optional, if data should not be tracked)
+*.csv
+*.tsv
+*.npz
+*.npy
+*.pkl
+*.joblib
+*.db
+*.sqlite
+
+# ----------------------------
+# IDE / Editor
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# OS generated
+.DS_Store
+Thumbs.db
