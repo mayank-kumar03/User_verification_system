@@ -20,7 +20,7 @@ venv/
 # Deep Learning / ML files
 # ----------------------------
 # Model checkpoints
-*.h5
+
 *.hdf5
 *.pb
 *.pth
